@@ -1,0 +1,5 @@
+package: <NAME-OF-DOWNLOAD>
+
+http://www.share-online.biz/dl/<LINK-ID>
+http://share-online.biz/dl/<LINK-ID>
+<CONTINUE-WITH-AS-MANY-LINKS-AS-YOU-WANT>
