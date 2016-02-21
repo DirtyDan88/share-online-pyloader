@@ -220,6 +220,8 @@ def retryDelay():
 
 #===============================================================================
 def download(linkListFileName, downloadSlots):
+  global NUM_FAILED_DOWNLOADS
+
   while True:
     NUM_FAILED_DOWNLOADS = 0
     setCookie()
