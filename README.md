@@ -19,7 +19,7 @@ Debian/Ubuntu:
 ```
 
 ## Usage
-- type ```python share-online.py -h``` for help message
+- type ```python3 share-online.py -h``` for help message
 - optional arguments:
 
         -s      the number of download-slots to use (e.g. parallel executed downloads)
@@ -28,7 +28,7 @@ Debian/Ubuntu:
 - positional arguments:
 
         - linkListFileName      file-name with share-online links, see link-ids-TEMPLATE.txt
-        - Example:              # python share-online.py links.txt
+        - Example:              # python3 share-online.py links.txt
 
 ## Grabbing link-ids:
 Copy content of DLC-file and decrypt it here: [dcrypt.it](http://dcrypt.it/) to get links via Click'n'Load you can use this script: [https://github.com/drwilly/clicknload2text](https://github.com/drwilly/clicknload2text).
