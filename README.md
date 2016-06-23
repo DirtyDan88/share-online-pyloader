@@ -4,18 +4,27 @@ Terminal downloader for [share-online.biz](http://www.share-online.biz/) premium
 This python-script enables you to download content via terminal from [share-online.biz](http://www.share-online.biz/) with your premium-account, for example if you want to run some downloads but only have termial-access to a remote computer. It can be seen as a simple and light-weight alternative to jDownloader, pyLoad, aria2 etc.
 See license for legal restrictions.
 
+![Screenshot of UI](https://raw.githubusercontent.com/DirtyDan88/share-online-pyloader/master/screenshot.png)
+
 ## Setup
 - well, a valid share-online premium-account (enter username and password inside the script)
-- python3 (you maybe have to install python3-requests)
-- curl
-- unrar (if you want to extract files after downloading)
+- python3
+  - python3-requests
+  - python3-pip to install module rarfile (http://rarfile.readthedocs.io/en/latest/)
+  - rarfile also needs unrar
 
 Debian/Ubuntu:
 ```sh
-# sudo apt-get install curl python3 unrar-free
+# sudo apt-get install python3 python3-pip unrar-free
+# sudo python3 -m pip install rarfile
 # git clone https://github.com/DirtyDan88/share-online-pyloader.git
 # cd share-online-pyloader
 # python share-online.py -h
+```
+If you run into problems when installing pip, try this:
+```sh
+# wget https://bootstrap.pypa.io/get-pip.py
+# sudo python get-pip.py
 ```
 
 ## Usage
